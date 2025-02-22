@@ -29,7 +29,7 @@ plt.tight_layout()
 ax.set_aspect("equal")  # set the equal scale of horizontal and vertical
 ax.axis("off")  # remove the frame of the generated figure
 plt.savefig(
-    "/Users/dwu24/Desktop/CIE500\ Fan/class\ 1/classexamplegraph.jpg",
+    "/Users/dwu24/Desktop/CIE500Fan/class1/classexamplegraph.jpg",
     dpi=300,
     bbox_inches="tight",
 )
@@ -68,11 +68,10 @@ plt.tight_layout()
 ax.set_aspect("equal")  # set the equal scale of horizontal and vertical
 ax.axis("off")  # remove the frame of the generated figure
 plt.savefig(
-    "/Users/dwu24/Desktop/CIE500\ Fan/class\ 1/ examplegraph_selfloop.jpg",
+    "/Users/dwu24/Desktop/CIE500Fan/class1/examplegraph_selfloop.jpg",
     dpi=300,
     bbox_inches="tight",
 )
-
 # Finally, we can get the edgelist and adjancency matrix from Graph directly.
 
 print(f"The adjancency matrix of G is \n {nx.adjacency_matrix(G).toarray()}")
