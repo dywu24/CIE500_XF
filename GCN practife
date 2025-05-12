@@ -1,0 +1,8 @@
+import torch
+import matplotlib.pyplot as plt
+from sklearn.manifold import TSNE
+from torch_geometric.datasets import Planetoid
+from torch_geometric.transforms import NormalizeFeatures
+
+
+dataset = Planetoid(root='data/Planetoid',name='Cora',transform=NormalizeFeatures())
